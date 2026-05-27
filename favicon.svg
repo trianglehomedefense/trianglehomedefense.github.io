@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+<title id="title">Triangle Home Defense mark</title>
+<desc id="desc">Weathered shield with a four leaf clover and mountain line.</desc>
+<defs>
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="9" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+  <radialGradient id="g" cx="50%" cy="30%" r="70%"><stop offset="0" stop-color="#7c2430"/><stop offset="1" stop-color="#3a0e15"/></radialGradient>
+</defs>
+<path d="M210 24 L352 78 v112 c0 91-53 153-142 206C121 343 68 281 68 190V78z" fill="url(#g)" stroke="#d7b16c" stroke-width="12" filter="url(#rough)"/>
+<path d="M91 214 C132 175 146 168 171 190 c24-37 57-44 87-12 34-38 65-28 88 27" fill="none" stroke="#eadbb7" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+<g transform="translate(210 141)" fill="#eadbb7" filter="url(#rough)">
+  <path d="M0-15 C-35-58-82-19-46 20C-24 44-5 24 0 8C5 24 24 44 46 20C82-19 35-58 0-15z"/>
+  <path d="M-8 9 C-50-9-81 39-31 52C0 60 4 30 0 12C-4 30 0 60 31 52C81 39 50-9 8 9z"/>
+  <path d="M2 25 c14 36 18 61 14 92" fill="none" stroke="#eadbb7" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path d="M112 303 h196" stroke="#d7b16c" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+</svg>
